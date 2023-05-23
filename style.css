@@ -1,0 +1,66 @@
+body{
+    font-family: arial;
+    color: gray;
+    background-color: #040404;
+    margin: unset;
+}
+.banner{
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    margin-top: 3em;
+   
+    
+}
+
+.left-banner{
+    margin-top: 1em;
+    float: left;
+    margin-left: 3em;
+}
+.heading{
+    font-size: x-large;
+    display: inline-block;
+    color: white;
+    position: relative;
+    margin-top: 2em;
+   
+}
+.main-section{
+    margin: auto;
+    width: 80%;
+}
+table{
+    text-align: left;
+}
+th{
+    padding: 2em;
+    padding-left: 1.2em;
+}
+.song-number{
+    width: 20px;
+    border-bottom: 2px solid gray;
+}
+.song-tittle{
+    width: 550px;
+    border-bottom: 2px solid gray;
+}
+.song-artist{
+    width: 250px;
+    border-bottom: 2px solid gray;
+}
+.song-duration{
+    width: 100px;
+    border-bottom: 2px solid gray;
+}
+td{
+    padding: 1.2em;
+}
+tr:hover{
+    color: white;
+}
+.controls img{
+    margin-top: 1em;
+    width: 3.5em;
+}
